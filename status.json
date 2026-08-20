@@ -1,6 +1,8 @@
 {
   "last_woe": "2026-08-20",
-  "active": true,
-  "last_checked": "2026-08-20 22:32 UTC",
-  "note": ""
+  "active": false,
+  "last_checked": "2026-08-20 23:20 UTC",
+  "note": "",
+  "status": "recent",
+  "last_detected_at": null
 }
