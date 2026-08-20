@@ -45,7 +45,7 @@ def write_page(state):
     HTML.write_text(f"""<!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Days without Walhalla Water woes</title>
+<title>Days Without Walhalla Water Woes</title>
 <style>
 body{{font-family:system-ui,sans-serif;text-align:center;padding:2rem;background:#f7f7f5}}
 .days{{font-size:5rem;font-weight:700;color:{color};margin:.4rem 0}}
@@ -54,7 +54,7 @@ body{{font-family:system-ui,sans-serif;text-align:center;padding:2rem;background
 a{{color:#1d6fa5}}
 </style></head>
 <body>
-<h1>Days without Walhalla Water woes</h1>
+<h1>Days Without Walhalla Water Woes</h1>
 <div class="days">{days}</div>
 <div class="status">{status}</div>
 <div class="meta">
