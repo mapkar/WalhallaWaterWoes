@@ -1,8 +1,8 @@
 {
   "last_woe": "2026-08-20",
   "active": false,
-  "last_checked": "2026-08-21 11:43 UTC",
-  "note": "",
+  "last_checked": "2026-08-21 13:12 UTC",
+  "note": "fetch failed: <urlopen error timed out>",
   "status": "cleared",
   "last_detected_at": null,
   "cleared_on": "2026-08-20"
