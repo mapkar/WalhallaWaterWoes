@@ -5,73 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Days without Walhalla Water woes</title>
 <style>
-  :root {
-    --bg: #f6f5f2;
-    --ink: #161616;
-    --muted: #5c5c5c;
-    --line: #e4e1db;
-    --ok: #1f6b3a;
-    --warn: #8a5a00;
-    --bad: #9b1c1c;
-  }
+  :root { --bg:#f6f5f2; --ink:#161616; --muted:#5c5c5c; --line:#e4e1db; --ok:#1f6b3a; --warn:#8a5a00; --bad:#9b1c1c; }
   * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: ui-sans-serif, system-ui, sans-serif;
-    background: var(--bg);
-    color: var(--ink);
-    display: grid;
-    place-items: center;
-  }
-  main {
-    width: min(34rem, calc(100% - 2.5rem));
-    text-align: center;
-  }
-  .kicker {
-    font-size: .78rem;
-    letter-spacing: .14em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 1.5rem;
-  }
-  h1 {
-    font-size: clamp(1.15rem, 3vw, 1.35rem);
-    font-weight: 550;
-    margin: 0 0 1.25rem;
-  }
-  .days {
-    font-size: clamp(5rem, 20vw, 7.5rem);
-    font-weight: 620;
-    letter-spacing: -.04em;
-    line-height: .9;
-    margin: 0 0 .9rem;
-  }
-  .pill {
-    display: inline-block;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: .35rem .8rem;
-    font-size: .8rem;
-    letter-spacing: .04em;
-    text-transform: uppercase;
-  }
-  .active { color: var(--bad); }
-  .recent { color: var(--warn); }
-  .cleared { color: var(--ok); }
-  .blurb {
-    color: var(--muted);
-    font-size: .98rem;
-    line-height: 1.5;
-    margin: 1.15rem 0 2rem;
-  }
-  .meta {
-    border-top: 1px solid var(--line);
-    padding-top: 1.1rem;
-    color: var(--muted);
-    font-size: .86rem;
-    line-height: 1.7;
-  }
+  body { margin:0; min-height:100vh; font-family:ui-sans-serif,system-ui,sans-serif; background:var(--bg); color:var(--ink); display:grid; place-items:center; }
+  main { width:min(38rem, calc(100% - 2.5rem)); text-align:center; }
+  .kicker { font-size:.78rem; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); margin-bottom:1.5rem; }
+  h1 { font-size:clamp(1.15rem,3vw,1.35rem); font-weight:550; margin:0 0 1.25rem; }
+  .days { font-size:clamp(5rem,20vw,7.5rem); font-weight:620; letter-spacing:-.04em; line-height:.9; margin:0 0 .9rem; }
+  .pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:.35rem .8rem; font-size:.8rem; letter-spacing:.04em; text-transform:uppercase; }
+  .active { color:var(--bad); } .recent { color:var(--warn); } .cleared { color:var(--ok); }
+  .blurb { color:var(--muted); font-size:.98rem; line-height:1.5; margin:1.15rem 0 1.2rem; }
+  .excerpt { text-align:left; background:#fff; border:1px solid var(--line); border-radius:12px; padding:.9rem 1rem; font-size:.9rem; line-height:1.45; margin:0 0 1.4rem; }
+  .excerpt .when { color:var(--muted); font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; margin-bottom:.45rem; }
+  .meta { border-top:1px solid var(--line); padding-top:1.1rem; color:var(--muted); font-size:.86rem; line-height:1.7; }
   a { color: inherit; }
 </style>
 </head>
@@ -79,14 +25,16 @@
 <main>
   <div class="kicker">Walhalla Water</div>
   <h1>Days without water woes</h1>
-  <div class="days cleared">15</div>
-  <div class="pill cleared">Cleared</div>
-  <p class="blurb">No current advisory or outage is indicated.</p>
+  <div class="days active">0</div>
+  <div class="pill active">Active issue</div>
+  <p class="blurb">An interruption or advisory appears to be in effect.</p>
+  <div class="excerpt"><div class="when">2026-09-04 / Public Utilities announcements</div>The Walhalla Water Department would like to notify customers that we have received numerous calls regarding no water and/or low water pressure in certain areas. Our crews were dispatched to investigate the issue and have determined that a water line has been hit and damaged by a contractor. Our crews are currently on site and working to make the necessary repairs. Customers in the affected area may experience low ...</div>
   <div class="meta">
-    Last incident: 2026-08-20<br>
-    Cleared: 2026-08-20<br>
-    Last checked: 2026-09-04 18:10 UTC<br>
-    <a href="https://www.cityofwalhalla.com/departments/public-utilities/">Official Public Utilities page</a>
+    Last incident: 2026-09-04<br>
+    Last checked: 2026-09-04 18:15 UTC<br>
+    Source: city utilities announcements + news pages<br>
+    <a href="https://www.cityofwalhalla.com/departments/public-utilities/">Official Public Utilities page</a><br>
+    <a href="https://www.facebook.com/p/City-of-Walhalla-Water-Department-100066363410273/">Water Department Facebook</a>
   </div>
 </main>
 </body>
