@@ -1,9 +1,14 @@
 {
-  "last_woe": "2026-08-20",
-  "active": false,
-  "last_checked": "2026-09-04 18:10 UTC",
+  "last_woe": "2026-09-04",
+  "cleared_on": null,
+  "excerpt": "The Walhalla Water Department would like to notify customers that we have received numerous calls regarding no water and/or low water pressure in certain areas. Our crews were dispatched to investigate the issue and have determined that a water line has been hit and damaged by a contractor. Our crews are currently on site and working to make the necessary repairs. Customers in the affected area may experience low ...",
+  "excerpt_date": "2026-09-04",
+  "excerpt_source": "Public Utilities announcements",
+  "source": "city utilities announcements + news pages",
+  "status": "active",
+  "active": true,
+  "last_detected_at": "2026-09-04T18:15:10+00:00",
+  "last_checked": "2026-09-04 18:15 UTC",
   "note": "",
-  "status": "cleared",
-  "last_detected_at": null,
-  "cleared_on": "2026-08-20"
+  "facebook": "https://www.facebook.com/p/City-of-Walhalla-Water-Department-100066363410273/"
 }
