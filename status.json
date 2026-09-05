@@ -1,14 +1,14 @@
 {
   "last_woe": "2026-09-05",
-  "cleared_on": null,
-  "excerpt": "The Walhalla Water Department would like to notify customers that we have received numerous calls regarding no water and/or low water pressure in certain areas. Our crews were dispatched to investigate the issue and have determined that a water line has been hit and damaged by a contractor. Our crews are currently on site and working to make the necessary repairs. Customers in the affected area may experience low ...",
+  "cleared_on": "2026-09-05",
+  "excerpt": "24-HOUR BOIL WATER ADVISORY The Walhalla Water Department is pleased to notify customers that the damaged water line has been repaired and water service has been restored. Out of an abundance of caution, the Walhalla Water Department is issuing a 24-hour Boil Water Advisory for customers affected by the water line interruption. Affected customers are in the areas of Pickens Highway near Country Junction Road, Coun...",
   "excerpt_date": "2026-09-04",
   "excerpt_source": "Public Utilities announcements",
   "source": "city utilities announcements + news pages",
-  "status": "active",
-  "active": true,
+  "status": "cleared",
+  "active": false,
   "last_detected_at": "2026-09-05T12:45:08.338743+00:00",
-  "last_checked": "2026-09-05 12:45 UTC",
+  "last_checked": "2026-09-05 16:06 UTC",
   "note": "",
   "facebook": "https://www.facebook.com/p/City-of-Walhalla-Water-Department-100066363410273/"
 }
