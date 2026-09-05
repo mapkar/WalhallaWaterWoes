@@ -5,10 +5,10 @@
   "excerpt_date": "2026-09-04",
   "excerpt_source": "Public Utilities announcements",
   "source": "city utilities announcements + news pages",
-  "status": "active",
-  "active": true,
+  "status": "recent",
+  "active": false,
   "last_detected_at": "2026-09-05T00:08:56.761773+00:00",
-  "last_checked": "2026-09-05 00:08 UTC",
+  "last_checked": "2026-09-05 04:33 UTC",
   "note": "",
   "facebook": "https://www.facebook.com/p/City-of-Walhalla-Water-Department-100066363410273/"
 }
