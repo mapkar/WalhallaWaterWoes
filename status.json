@@ -8,7 +8,7 @@
   "status": "cleared",
   "active": false,
   "last_detected_at": "2026-09-05T12:45:08.338743+00:00",
-  "last_checked": "2026-10-29 14:23 UTC",
-  "note": "",
+  "last_checked": "2026-10-29 20:21 UTC",
+  "note": "https://www.cityofwalhalla.com/departments/public-utilities/ failed: <urlopen error timed out>; https://www.cityofwalhalla.com/news/ failed: <urlopen error timed out>; https://www.cityofwalhalla.com/about-walhalla/news-release/ failed: <urlopen error timed out>",
   "facebook": "https://www.facebook.com/p/City-of-Walhalla-Water-Department-100066363410273/"
 }
